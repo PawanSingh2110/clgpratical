@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./logo.png">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <title>
+        pawan
+    </title>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav
+        class="flex justify-between px-10 sticky top-0 z-10 gap-10 text-xl py-5 bg-black text-white border-b-2 border-white ">
+        <ul class="flex gap-3 poppins">
+            <li><a href="">Instagram</a></li>
+            <li><a href="">X</a></li>
+            <li><a href="">Linkdien</a></li>
+            <li><a href="">github</a></li>
+        </ul>
+        <h1 class="poppins text-3xl font-medium">Pawan</h1>
+        <ul class="flex gap-5 poppins">
+            <li>
+                <a href="#Home"
+                    class="relative inline-block border-b-2 border-transparent hover:border-white transition-all duration-300 ease-in-out">
+                    Home
+                </a>
+            </li>
+
+            <li><a href="#project"
+                    class="relative inline-block border-b-2 border-transparent hover:border-white transition-all duration-300 ease-in-out">Project</a>
+            </li>
+            <li><a href="#aboutus"
+                    class="relative inline-block border-b-2 border-transparent hover:border-white transition-all duration-300 ease-in-out">About
+                    us</a></li>
+            <li><a href="#contact"
+                    class="relative inline-block border-b-2 border-transparent hover:border-white transition-all duration-300 ease-in-out">Contact
+                    Us</a></li>
+
+        </ul>
+
+
+
+    </nav>
+    <!-- herosection -->
+    <section id="Home" class=" h-auto bg-black overflow-hidden">
+        <div class=" w-full mx-auto flex justify-between item-center text-white">
+            <h1 class="text-6xl pt-60 pl-10 poppins tracking-wider"> "Experience is the name everyone gives to their
+                mistakes."</h1>
+            <img src="./pic1.png" alt="" class="w-[700px] ">
+        </div>
+
+    </section>
+    <!-- about section -->
+    <section id="aboutus" class="bg-black  text-white py-20 px-6 scroll-mt-16">
+  <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12">
+
+    <!-- Profile Image -->
+    <div class="flex-1 flex justify-center">
+      <div class="relative">
+        <div class="absolute inset-0 bg-gradient-to-r from-gray-500 to-white rounded-full blur-2xl opacity-30 animate-pulse"></div>
+        <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=1000&auto=format&fit=crop" 
+             alt="Profile" 
+             class="relative w-72 h-72 rounded-full object-cover border-4 border-white shadow-[0_0_20px_rgba(255,255,255,0.2)] hover:scale-105 transition-transform duration-500">
+      </div>
+    </div>
+
+    <!-- About Content -->
+    <div id="about" class="flex-1 text-center md:text-left">
+      <h2 class="text-5xl font-extrabold mb-4 tracking-tight">
+        About <span class="text-gray-400">Me</span>
+      </h2>
+      <p class="text-gray-400 text-xl italic mb-8">
+        "Turning ideas into interactive, pixel-perfect experiences."
+      </p>
+      
+      <p class="text-lg text-gray-300 leading-relaxed mb-5">
+        Hey there! I’m <span class="text-white font-semibold">Pawan</span>, a creative and detail-oriented 
+        <span class="text-white font-semibold">Frontend Developer</span> who loves building sleek, 
+        responsive, and engaging web experiences.  
+        I focus on crafting clean designs with smooth animations and user-friendly interfaces.
+      </p>
+
+      <p class="text-lg text-gray-300 leading-relaxed">
+        My toolbox includes <span class="text-white">React</span>, <span class="text-white">Next.js</span>, 
+        and <span class="text-white">Tailwind CSS</span> — all used to transform ideas into interactive, 
+        modern websites. When I’m not coding, I explore creative design trends or polish my 
+        problem-solving skills with <span class="text-white">Java & DSA</span>.
+      </p>
+    </div>
+  </div>
+</section>
+
+
+
+ <!-- Project Section -->
+<section id="project" class="bg-black text-white py-12 px-6 scroll-mt-16">
+  <h1 class="text-5xl poppins font-bold text-white mb-10 ">My Projects</h1>
+
+  <div class="max-w-9xl mx-auto poppins">
+    <!-- Project Grid -->
+    <div class="grid gap-8 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 place-items-center">
+      
+      <!-- Project Card -->
+      <div class="relative group w-[300px] h-[360px] bg-gray-900 rounded-lg overflow-hidden shadow-lg hover:shadow-white/40 transition-all duration-300">
+        <img src="https://images.unsplash.com/photo-1620325867502-221cfb5faa5f?q=80&w=1157&auto=format&fit=crop" 
+             alt="Project Image" 
+             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500 opacity-80">
+        <div class="absolute inset-0 bg-gradient-to-t from-black via-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+
+        <div class="absolute bottom-0 left-0 right-0 p-5 text-left transform translate-y-16 group-hover:translate-y-0 transition-all duration-300">
+          <h3 class="text-2xl font-semibold mb-3">Web Page</h3>
+          <a href="#" class="inline-block border border-white font-medium hover:bg-white hover:text-black px-4 py-2 rounded-lg transition-all">View Project</a>
+        </div>
+      </div>
+
+      <!-- Project Card 2 -->
+      <div class="relative group w-[300px] h-[360px] bg-gray-900 rounded-lg overflow-hidden shadow-lg hover:shadow-white/40 transition-all duration-300">
+        <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=755" 
+             alt="Portfolio" 
+             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500 opacity-80">
+        <div class="absolute inset-0 bg-gradient-to-t from-black via-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+
+        <div class="absolute bottom-0 left-0 right-0 p-5 text-left transform translate-y-16 group-hover:translate-y-0 transition-all duration-300">
+          <h3 class="text-2xl font-semibold mb-3">Portfolio</h3>
+          <a href="#" class="inline-block border border-white font-medium hover:bg-white hover:text-black px-4 py-2 rounded-lg transition-all">View Project</a>
+        </div>
+      </div>
+
+      <!-- Project Card 3 -->
+      <div class="relative group w-[300px] h-[360px] bg-gray-900 rounded-lg overflow-hidden shadow-lg hover:shadow-white/40 transition-all duration-300">
+        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1115" 
+             alt="Ecommerce" 
+             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500 opacity-80">
+        <div class="absolute inset-0 bg-gradient-to-t from-black via-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+
+        <div class="absolute bottom-0 left-0 right-0 p-5 text-left transform translate-y-16 group-hover:translate-y-0 transition-all duration-300">
+          <h3 class="text-2xl font-semibold mb-3">E-Commerce</h3>
+          <a href="#" class="inline-block border border-white font-medium hover:bg-white hover:text-black px-4 py-2 rounded-lg transition-all">View Project</a>
+        </div>
+      </div>
+
+      <!-- Project Card 4 -->
+      <div class="relative group w-[300px] h-[360px] bg-gray-900 rounded-lg overflow-hidden shadow-lg hover:shadow-white/40 transition-all duration-300">
+        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1157&auto=format&fit=crop" 
+             alt="Dashboard" 
+             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500 opacity-80">
+        <div class="absolute inset-0 bg-gradient-to-t from-black via-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+
+        <div class="absolute bottom-0 left-0 right-0 p-5 text-left transform translate-y-16 group-hover:translate-y-0 transition-all duration-300">
+          <h3 class="text-2xl font-semibold mb-3">Admin Dashboard</h3>
+          <a href="#" class="inline-block border border-white font-medium hover:bg-white hover:text-black px-4 py-2 rounded-lg transition-all">View Project</a>
+        </div>
+      </div>
+      <!-- Project Card 5 -->
+      <div class="relative group w-[300px] h-[360px] bg-gray-900 rounded-lg overflow-hidden shadow-lg hover:shadow-white/40 transition-all duration-300">
+        <img src="https://images.unsplash.com/photo-1705636070427-8234f647b5bb?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=627" 
+             alt="Dashboard" 
+             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500 opacity-80">
+        <div class="absolute inset-0 bg-gradient-to-t from-black via-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+
+        <div class="absolute bottom-0 left-0 right-0 p-5 text-left transform translate-y-16 group-hover:translate-y-0 transition-all duration-300">
+          <h3 class="text-2xl font-semibold mb-3">School Dashboard</h3>
+          <a href="#" class="inline-block border border-white font-medium hover:bg-white hover:text-black px-4 py-2 rounded-lg transition-all">View Project</a>
+        </div>
+      </div>
+      <!-- Project Card 6 -->
+      <div class="relative group w-[300px] h-[360px] bg-gray-900 rounded-lg overflow-hidden shadow-lg hover:shadow-white/40 transition-all duration-300">
+        <img src="https://images.unsplash.com/photo-1546455643-312811da2332?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=936" 
+             alt="Dashboard" 
+             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500 opacity-80">
+        <div class="absolute inset-0 bg-gradient-to-t from-black via-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+
+        <div class="absolute bottom-0 left-0 right-0 p-5 text-left transform translate-y-16 group-hover:translate-y-0 transition-all duration-300">
+          <h3 class="text-2xl font-semibold mb-3">Construction Website</h3>
+          <a href="#" class="inline-block border border-white font-medium hover:bg-white hover:text-black px-4 py-2 rounded-lg transition-all">View Project</a>
+        </div>
+      </div>
+      <!-- Project Card 7 -->
+      <div class="relative group w-[300px] h-[360px] bg-gray-900 rounded-lg overflow-hidden shadow-lg hover:shadow-white/40 transition-all duration-300">
+        <img src="https://images.unsplash.com/photo-1745211212197-1a0b4eb53b0b?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=687" 
+             alt="Dashboard" 
+             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500 opacity-80">
+        <div class="absolute inset-0 bg-gradient-to-t from-black via-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+
+        <div class="absolute bottom-0 left-0 right-0 p-5 text-left transform translate-y-16 group-hover:translate-y-0 transition-all duration-300">
+          <h3 class="text-2xl font-semibold mb-3">Cafe Website</h3>
+          <a href="#" class="inline-block border border-white font-medium hover:bg-white hover:text-black px-4 py-2 rounded-lg transition-all">View Project</a>
+        </div>
+      </div>
+      <!-- Project Card 8 -->
+      <div class="relative group w-[300px] h-[360px] bg-gray-900 rounded-lg overflow-hidden shadow-lg hover:shadow-white/40 transition-all duration-300">
+        <img src="https://images.unsplash.com/photo-1731570226039-3951803e2c92?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=687" 
+             alt="Dashboard" 
+             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500 opacity-80">
+        <div class="absolute inset-0 bg-gradient-to-t from-black via-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+
+        <div class="absolute bottom-0 left-0 right-0 p-5 text-left transform translate-y-16 group-hover:translate-y-0 transition-all duration-300">
+          <h3 class="text-2xl font-semibold mb-3">Food Website</h3>
+          <a href="#" class="inline-block border border-white font-medium hover:bg-white hover:text-black px-4 py-2 rounded-lg transition-all">View Project</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<section class="bg-black text-white py-16 px-6">
+    <h1 class="text-5xl font-bold mb-12 poppins text-left text-white">My <span class="">Skills</span></h1>
+  <div class="max-w-8xl mx-auto">
+    <!-- Title -->
+
+    <!-- Skills Grid -->
+    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 gap-8">
+      
+      <!-- HTML -->
+      <div class="bg-gray-900 p-6 rounded-2xl hover:bg-white hover:text-black transition-all duration-300 transform hover:scale-110 shadow-lg hover:shadow-white/40">
+        <img src="https://static.vecteezy.com/system/resources/previews/001/416/705/original/html5-emblem-orange-shield-and-white-text-vector.jpg" 
+             alt="HTML" 
+             class="w-24 h-24 mx-auto mb-4 rounded-md">
+        <h2 class="text-xl font-semibold uppercase tracking-wide text-center">HTML</h2>
+      </div>
+
+      <!-- CSS -->
+      <div class="bg-gray-900 p-6 rounded-2xl hover:bg-white hover:text-black transition-all duration-300 transform hover:scale-110 shadow-lg hover:shadow-white/40">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/CSS.3.svg" 
+             alt="CSS" 
+             class="w-24 h-24 mx-auto mb-4 rounded-md">
+        <h2 class="text-xl font-semibold uppercase tracking-wide text-center">CSS</h2>
+      </div>
+
+      <!-- JavaScript -->
+      <div class="bg-gray-900 p-6 rounded-2xl hover:bg-white hover:text-black transition-all duration-300 transform hover:scale-110 shadow-lg hover:shadow-white/40">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" 
+             alt="JavaScript" 
+             class="w-24 h-24 mx-auto mb-4 rounded-md">
+        <h2 class="text-xl font-semibold uppercase tracking-wide text-center">JavaScript</h2>
+      </div>
+
+      <!-- React -->
+      <div class="bg-gray-900 p-6 rounded-2xl hover:bg-white hover:text-black transition-all duration-300 transform hover:scale-110 shadow-lg hover:shadow-white/40">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" 
+             alt="React" 
+             class="w-24 h-24 mx-auto mb-4 rounded-md">
+        <h2 class="text-xl font-semibold uppercase tracking-wide text-center">React</h2>
+      </div>
+
+      <!-- Next.js -->
+      <!-- <div class="bg-gray-900 p-6 rounded-2xl hover:bg-white hover:text-black transition-all duration-300 transform hover:scale-110 shadow-lg hover:shadow-white/40">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Nextjs-logo.svg" 
+             alt="Next.js" 
+             class="w-24 h-24 mx-auto mb-4 rounded-md">
+        <h2 class="text-xl font-semibold uppercase tracking-wide text-center">Next.js</h2>
+      </div> -->
+
+      <!-- Tailwind CSS -->
+      <div class="bg-gray-900 p-6 rounded-2xl hover:bg-white hover:text-black transition-all duration-300 transform hover:scale-110 shadow-lg hover:shadow-white/40">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg" 
+             alt="Tailwind CSS" 
+             class="w-24 h-24 mx-auto mb-4 rounded-md">
+        <h2 class="text-xl font-semibold uppercase tracking-wide text-center">Tailwind</h2>
+      </div>
+
+      <!-- Node.js -->
+      <div class="bg-gray-900 p-6 rounded-2xl hover:bg-white hover:text-black transition-all duration-300 transform hover:scale-110 shadow-lg hover:shadow-white/40">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg" 
+             alt="Node.js" 
+             class="w-24 h-24 mx-auto mb-4 rounded-md">
+        <h2 class="text-xl font-semibold uppercase tracking-wide text-center">Node.js</h2>
+      </div>
+
+      <!-- Express.js -->
+      <div class="bg-gray-900 p-6 rounded-2xl hover:bg-white hover:text-black transition-all duration-300 transform hover:scale-110 shadow-lg hover:shadow-white/40">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png" 
+             alt="Express" 
+             class="w-24 h-24 mx-auto mb-4 rounded-md bg-white p-2 rounded-lg">
+        <h2 class="text-xl font-semibold uppercase tracking-wide text-center">Express</h2>
+      </div>
+
+      <!-- MongoDB -->
+      <div class="bg-gray-900 p-6 rounded-2xl hover:bg-white hover:text-black transition-all duration-300 transform hover:scale-110 shadow-lg hover:shadow-white/40">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg" 
+             alt="MongoDB" 
+             class="w-24 h-24 mx-auto mb-4 rounded-md">
+        <h2 class="text-xl font-semibold uppercase tracking-wide text-center">MongoDB</h2>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <!-- contact section -->
+    <Contact>
+
+        <div id="contact" class="bg-black text-white  pb-5">
+            <h1 class="text-3xl poppins  p-5 font-medium"> </h1>
+            <div class="flex justify-center h-auto item-center">
+                <img src="https://cdn.prod.website-files.com/68459d875477b104545f768c/6855d98e519def07c003a92a_9cfd21ad01156301a70ddf36a41d3d40_layer-4-mobile-p-500.webp"
+                    alt="" class="h-[500px]">
+                <form class="border boder-1 boder-black  p-5 w-[500px]">
+                    <h1 class="text-3xl text-center poppins  p-5 font-medium" id="contact">Contact ME </h1>
+
+                    <div class="flex flex-col gap-2">
+                        <label for="name" class="text-2xl poppins">name:-</label>
+                        <input required type="text" placeholder="enter your name"
+                            class=" p-3 poppins border-1 outline-none border-white">
+                    </div>
+                    <div class="flex flex-col mt-3 ">
+                        <label for="name" class="text-2xl poppins">Number:-</label>
+                        <input required type="text" placeholder="enter your Number"
+                            class=" p-3 poppins border-1 outline-none border-white">
+                    </div>
+                    <div class="flex flex-col gap-2 mt-3">
+                        <label for="name" class="text-2xl poppins">Message:-</label>
+                        <textarea required type="text" placeholder="Your message"
+                            class=" p-3 poppins border-1 outline-none h-30 border-white resize-none"></textarea>
+                    </div>
+                    <button type="submit" onclick="onsubmit()"
+                        class="w-full rounded-sm text-white  hover:bg-white hover:text-black hover:border-black transition-all duration-300 ease-in-out  poppins p-3 text-3xl poppins border-2 mt-6 border-white">Submit</button>
+                </form>
+            </div>
+        </div>
+    </Contact>
+
+
+</body>
+<script>
+    document.querySelector('form').addEventListener('submit', function (e) {
+        e.preventDefault();  // prevent actual form submission
+        alert('hello');
+        this.reset();
+    });
+</script>
+
+</html>
